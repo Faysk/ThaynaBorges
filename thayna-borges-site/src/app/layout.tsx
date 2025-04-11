@@ -9,6 +9,27 @@ import { ThemeProvider } from '@/context/theme-provider'
 export const metadata: Metadata = {
   title: 'Thayná Borges | Psicóloga',
   description: 'Site oficial da psicóloga Thayná Borges. Atendimento online e acolhedor.',
+  openGraph: {
+    title: 'Thayná Borges | Psicóloga',
+    description: 'Atendimento psicológico online com empatia e profissionalismo.',
+    url: 'https://thayna-borges.vercel.app',
+    siteName: 'Thayná Borges | Psicóloga',
+    images: [
+      {
+        url: 'https://thayna-borges.vercel.app/thayna-profile.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Thayná Borges - Psicóloga',
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Thayná Borges | Psicóloga',
+    description: 'Atendimento psicológico online com empatia e profissionalismo.',
+    images: ['https://thayna-borges.vercel.app/thayna-profile.jpg'],
+  },
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
@@ -36,7 +57,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <div className="flex flex-col min-h-screen relative overflow-x-hidden">
             {/* Fundo animado sutil */}
             <div className="animated-bg" aria-hidden="true" />
-            
+
             <Header />
 
             <main className="flex-1 relative z-10">
