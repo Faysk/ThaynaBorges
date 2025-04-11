@@ -12,11 +12,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Thayná Borges | Psicóloga',
     description: 'Atendimento psicológico online com empatia e profissionalismo.',
-    url: 'https://thayna-borges.vercel.app',
+    url: 'https://thaynaborges.faysk.top',
     siteName: 'Thayná Borges | Psicóloga',
     images: [
       {
-        url: 'https://thayna-borges.vercel.app/thayna-profile.jpg',
+        url: 'https://thaynaborges.faysk.top/thayna-profile.jpg',
         width: 1200,
         height: 630,
         alt: 'Thayná Borges - Psicóloga',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Thayná Borges | Psicóloga',
     description: 'Atendimento psicológico online com empatia e profissionalismo.',
-    images: ['https://thayna-borges.vercel.app/thayna-profile.jpg'],
+    images: ['https://thaynaborges.faysk.top/thayna-profile.jpg'],
   },
 }
 
