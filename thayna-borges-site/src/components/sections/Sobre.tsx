@@ -4,7 +4,7 @@ export default function Sobre() {
       <div className="section__container">
         <h2 className="section__title">Sobre mim</h2>
         <p className="section__text italic text-muted">
-          "Entender o que sentimos pode transformar a forma como vivemos."
+          &quot;Entender o que sentimos pode transformar a forma como vivemos.&quot;
         </p>
 
         <div className="section__text text-justify space-y-6">
